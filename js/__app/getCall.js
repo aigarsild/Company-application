@@ -1,4 +1,4 @@
-(function ($, window, undefined)
+    (function ($, window, undefined)
 {
     $.widget('vaimo.instantMessageRibbon', {
         options: {
@@ -16,6 +16,10 @@
         },
         _init: function ()
         {
+            $(this.options.className.button).on('click', function ()
+            {
+                this.logIn();
+            }.bind(this));
 
             $(this.options.className.butt).on('click', function ()
             {
@@ -26,6 +30,35 @@
             {
                 this.logOut();
             }.bind(this));
+
+        },
+        logIn: function ()
+        {
+            email = $(this.options.className.email).val();
+            password = $(this.options.className.password).val();
+
+            $.ajax({
+                       url: 'http://kooliprojekt.dev:8000/api/v1/authenticate',
+                       data: 'email='+email+'&password='+password,
+                       type: 'POST',
+                       processData: false,
+                       error: function() {
+                           $('#info').html('<p>An error has occurred</p>');
+                       },
+                       dataType: 'json',
+                       success: function(data) {
+                           if (data.result) {
+                               if(typeof(Storage) !== 'undefined') {
+                                   localStorage.setItem('Authorization', 'Bearer ' +data.token);
+                                   $(location).attr('href', 'companies.html');
+                               } else {
+                                   alert('Update the browser to use this application');
+                               }
+                           } else {
+                               alert('Incorrect password');
+                           }
+                       },
+                   });
 
         },
         getCall: function ()
