@@ -1,13 +1,12 @@
 <!-- Add header -->
 <?php
-$pageTitle = 'My dashboard'; //Add page title
+$pageTitle = 'Feedback'; //Add page title
 include 'templates/header.php';
 ?>
 
-<h1>My dashboard</h1>
-<p>Find information about company</p>
+<p>Find a worker to give feedback</p>
+<div data-target="employee-list" class="list-group">
 
-<div data-target="comp-list" class="list-group">
 </div>
 
 

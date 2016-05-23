@@ -8,7 +8,7 @@
                 password: '#InputPassword1',
             },
             url: 'http://kooliprojekt.dev:8000/api/v1/authenticate',
-            urlUsers: 'http://kooliprojekt.dev:8000/api/v1/users/0'
+            urlUsers: 'http://kooliprojekt.dev:8000/api/v1/users/all'
         },
         _init: function ()
         {
@@ -47,6 +47,7 @@
         },
         getUserId: function ()
         {
+
             var userEmail = $(this.options.className.email).val();
             $.ajax({
                        url: this.options.urlUsers,
@@ -63,13 +64,9 @@
                                    } else {
                                        alert('Update the browser to use this application');
                                    }
-
                                    return;
                                }
                            });
-
-
-
                        },
                    });
         }

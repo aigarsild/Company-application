@@ -5,15 +5,17 @@
             className: {
                 userName: '[data-target=userName]',
                 userNameInsert: '[data-target=userNameInsert]',
-                email: '#InputEmail1',
-                password: '#InputPassword1',
+                loggedIn: '[data-target=login]',
+                logInTekst: '[data-target=login-tekst]',
             },
             url: 'http://kooliprojekt.dev:8000/api/v1/authenticate'
         },
         _init: function ()
         {
             this.checkSession();
+            this.hideContent();
         },
+
         checkSession: function ()
         {
             var token = localStorage.getItem('Authorization');
@@ -22,6 +24,15 @@
                var userName = localStorage.getItem('Username');
                 $(this.options.className.userName).removeClass('hidden');
                 $(this.options.className.userName).append(userName);
+            }
+        },
+
+        hideContent: function ()
+        {
+            var token = localStorage.getItem('Authorization');
+            if (token) {
+                $(this.options.className.loggedIn).addClass('hidden');
+                $(this.options.className.logInTekst).append('Log out');
             }
         }
     });

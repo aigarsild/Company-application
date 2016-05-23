@@ -9,8 +9,34 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootsrap.min.css">
+    <style>
+        #loader {
+            position: absolute;
+            top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.35);
+            bottom: 0;
+            z-index: 99999;
+        }
+        #loader img {
+            margin-top: 200px;
+            margin-left: 35%;
+            width: 150px;
+        }
+        #loader h2 {
+            margin-top: 20px;
+            margin-left: 35%;
+            width: 150px;
+        }
+    </style>
 </head>
 <body>
+<div id="loader" style="display: none">
+    <img class="col-md-12 col-md-offset-3" src="../img/loader.gif">
+    <h2>Loading...</h2>
+</div>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,6 +59,10 @@
                 </li>
                 <li>
                     <a href="dashboard.php">Dashboard</a>
+
+                </li>
+                <li>
+                    <a href="addnewcompany.php">Add new company</a>
                 </li>
                 <li>
                     <a href="login.php">Login</a>
