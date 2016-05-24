@@ -27,11 +27,14 @@
                            var token = localStorage.getItem('Authorization');
                            xhr.setRequestHeader('Authorization', token);
                        },
-                       error: function ()
+                       error: function (data)
                        {
-                           $(location).attr('href', 'login.php');
-                           localStorage.clear();
-                           alert('Session expired');
+                           if (data.error == 'token_not_provided') {
+                               $(location).attr('href', 'login.php');
+                               localStorage.clear();
+                               alert('Session expired');
+                           }
+
                        },
                        dataType: 'json',
                        complete: function(){
@@ -42,7 +45,10 @@
                            $.each(data, function(index, element) {
                                var id = element.id;
                                var name = element.name;
-                               $(this.options.className.list).append('<a data-button="button" data-id="'+id+'" class="list-group-item active"><strong>'+name+'</strong></a>');
+                               $(this.options.className.list).append('<p data-button="button" data-id="'+id+'" class="list-group-item active">' +
+                                                                     '<strong>'+name+'</strong>' +
+                                                                     '<a style="float: right" href="editcompany.php?companyId='+id+'"> Edit</a>' +
+                                                                     '</p>');
                            }.bind(this));
                        }.bind(this)
                    });

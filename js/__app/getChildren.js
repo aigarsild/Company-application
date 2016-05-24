@@ -17,6 +17,7 @@
         {
             $(this.options.className.list).on('click', this.options.className.button, function (e)
             {
+
                 var parent_id = $(e.currentTarget).data('id');
 
                 $.ajax({
@@ -30,11 +31,13 @@
                                var token = localStorage.getItem('Authorization');
                                xhr.setRequestHeader('Authorization', token);
                            },
-                           error: function ()
+                           error: function (data)
                            {
-                               $(location).attr('href', 'login.php');
-                               localStorage.clear();
-                               alert('Session expired');
+                               if (data.error == 'token_not_provided') {
+                                   $(location).attr('href', 'login.php');
+                                   localStorage.clear();
+                                   alert('Session expired');
+                               }
                            },
                            dataType: 'json',
                            complete: function(){
@@ -48,14 +51,21 @@
                                    $.each(data, function(index, element) {
                                        var id = element.id;
                                        var name = element.name;
-                                       $('[data-id="'+parent_id+'"]').append('<h3>'+name+'</h3><li><strong>Email: </strong>'+element.email+'</li><li><strong>Position: </strong>'+element.position+'</li><li><strong>Mob: </strong>'+element.contact_number+'</li>');
+                                       $('[data-id="'+parent_id+'"]').append('<h3>'+name+'</h3>' +
+                                                                             '<li><strong>Email: </strong>'+element.email+'</li>' +
+                                                                             '<li><strong>Position: </strong>'+element.position+'</li>' +
+                                                                             '<li><strong>Mob: </strong>'+element.contact_number+'</li>');
+                                       $('[data-id="'+parent_id+'"]').append('<a href="/feedback.php?employee='+id+'">See feedback</a>');
+
                                    }.bind(this));
                                }
                            }.bind(this)
                        });
 
 
-            }.bind(this))
+            }.bind(this)).on('click','a',function(e) {
+                e.stopPropagation();
+            });
         }
     });
 

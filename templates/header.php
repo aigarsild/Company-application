@@ -24,17 +24,23 @@
             margin-top: 200px;
             margin-left: 35%;
             width: 150px;
+            -webkit-animation:spin 2s linear infinite;
+            -moz-animation:spin 2s linear infinite;
+            animation:spin 2s linear infinite;
         }
         #loader h2 {
             margin-top: 20px;
             margin-left: 35%;
             width: 150px;
         }
+        @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
     </style>
 </head>
 <body>
 <div id="loader" style="display: none">
-    <img class="col-md-12 col-md-offset-3" src="../img/loader.gif">
+    <img class="col-md-12 col-md-offset-3" src="../img/loader.png">
     <h2>Loading...</h2>
 </div>
 <nav class="navbar navbar-default">

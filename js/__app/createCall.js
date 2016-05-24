@@ -40,11 +40,13 @@
                        complete: function(){
                            $('#loader').hide();
                        },
-                       error: function ()
+                       error: function (data)
                        {
-                           $(location).attr('href', 'login.php');
-                           localStorage.clear();
-                           alert('Session expired');
+                           if (data.error == 'token_not_provided') {
+                               $(location).attr('href', 'login.php');
+                               localStorage.clear();
+                               alert('Session expired');
+                           }
                        },
                        dataType: 'json',
                        success: function (data)
@@ -57,12 +59,11 @@
         }
     });
 
-
 })(jQuery, window);
+
 
     jQuery(document).ready(function ($) {
 
         $.create.call();
-
-
+        
     });
