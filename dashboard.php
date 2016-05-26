@@ -5,7 +5,7 @@ include 'templates/header.php';
 ?>
 
 <h1>My dashboard</h1>
-<p>Find information about company</p>
+<span>Find information about company</span>
 
 <div data-target="comp-list" class="list-group">
 </div>

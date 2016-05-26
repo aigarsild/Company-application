@@ -42,12 +42,14 @@
                            var token = localStorage.getItem('Authorization');
                            xhr.setRequestHeader('Authorization', token);
                        },
-                       error: function (data)
+                       error: function (error, xhr)
                        {
-                           if (data.error = 'token_not_provided') {
+                           if (error == 'Unauthorized') {
                                $(location).attr('href', 'login.php');
                                localStorage.clear();
                                alert('Session expired');
+                           } else {
+                               alert(xhr.responseText);
                            }
                        },
                        dataType: 'json',
@@ -65,7 +67,7 @@
 
 
                            if (data.length == 0) {
-                               $('[data-id="'+parent_id+'"]').append('<p>There is no feedback for current user</p>');
+
                            } else {
                                $.each(data, function(index, element) {
 

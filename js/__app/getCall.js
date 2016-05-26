@@ -27,13 +27,11 @@
                            var token = localStorage.getItem('Authorization');
                            xhr.setRequestHeader('Authorization', token);
                        },
-                       error: function (data)
-                       {
-                           if (data.error == 'token_not_provided') {
-                               $(location).attr('href', 'login.php');
-                               localStorage.clear();
-                               alert('Session expired');
-                           }
+                       error: function(xhr, status, error) {
+
+                           $(location).attr('href', 'login.php');
+                           localStorage.clear();
+
 
                        },
                        dataType: 'json',
@@ -46,8 +44,10 @@
                                var id = element.id;
                                var name = element.name;
                                $(this.options.className.list).append('<p data-button="button" data-id="'+id+'" class="list-group-item active">' +
-                                                                     '<strong>'+name+'</strong>' +
-                                                                     '<a style="float: right" href="editcompany.php?companyId='+id+'"> Edit</a>' +
+                                                                     '<strong data-target="company-name">'+name+'</strong>' +
+                                                                     '<a style="float: right" data-target="delete" data-delete_id="'+id+'" href="#">Delete /</a>' +
+                                                                     '<a style="float: right" href="editcompany.php?companyId='+id+'">Edit /</a>' +
+                                                                     '<a style="float: right" href="addnewcompany.php">Add new /</a>' +
                                                                      '</p>');
                            }.bind(this));
                        }.bind(this)

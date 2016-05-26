@@ -40,13 +40,10 @@
                        complete: function(){
                            $('#loader').hide();
                        },
-                       error: function (data)
+                       error: function (error, xhr)
                        {
-                           if (data.error == 'token_not_provided') {
-                               $(location).attr('href', 'login.php');
-                               localStorage.clear();
-                               alert('Session expired');
-                           }
+                           $(location).attr('href', 'login.php');
+                           localStorage.clear();
                        },
                        dataType: 'json',
                        success: function (data)
@@ -65,5 +62,5 @@
     jQuery(document).ready(function ($) {
 
         $.create.call();
-        
+
     });

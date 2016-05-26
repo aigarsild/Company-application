@@ -31,13 +31,10 @@
                                var token = localStorage.getItem('Authorization');
                                xhr.setRequestHeader('Authorization', token);
                            },
-                           error: function (data)
+                           error: function (xhr, status, error)
                            {
-                               if (data.error == 'token_not_provided') {
-                                   $(location).attr('href', 'login.php');
-                                   localStorage.clear();
-                                   alert('Session expired');
-                               }
+                               $(location).attr('href', 'login.php');
+                               localStorage.clear();
                            },
                            dataType: 'json',
                            complete: function(){
@@ -52,10 +49,14 @@
                                        var id = element.id;
                                        var name = element.name;
                                        $('[data-id="'+parent_id+'"]').append('<h3>'+name+'</h3>' +
+                                                                             '<a style="float: right" data-target="delete_employee" data-delete_id="'+id+'" href="#">Delete /</a>' +
+                                                                             '<a style="float: right" href="editcompany.php?companyId='+id+'">Edit /</a>' +
+                                                                             '<a style="float: right" data-target="add_employee" >Add new /</a>' +
                                                                              '<li><strong>Email: </strong>'+element.email+'</li>' +
                                                                              '<li><strong>Position: </strong>'+element.position+'</li>' +
                                                                              '<li><strong>Mob: </strong>'+element.contact_number+'</li>');
-                                       $('[data-id="'+parent_id+'"]').append('<a href="/feedback.php?employee='+id+'">See feedback</a>');
+                                       $('[data-id="'+parent_id+'"]').append('<a href="/addnewfeedback.php?employee='+id+'&employeeName='+name+'">Add feedback </a>' +
+                                                                             '<a href="/feedback.php?employee='+id+'">/ See feedback</a>');
 
                                    }.bind(this));
                                }

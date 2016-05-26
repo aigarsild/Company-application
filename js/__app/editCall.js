@@ -89,7 +89,7 @@
                        },
                        error: function (data)
                        {
-                           if (data.error == 'token_not_provided') {
+                           if (data.error == 'token_not_provided' || data.error == 'token_expired') {
                                $(location).attr('href', 'login.php');
                                localStorage.clear();
                                alert('Session expired');
