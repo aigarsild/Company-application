@@ -11,7 +11,7 @@
                 contact_number: '[data-target=contact_number]',
                 position: '[data-target=position]',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v2/companies/'
+            url: 'http://aigarsild.ee/blog/public/api/v2/companies/'
         },
         state: {
             isContentOpened: false,

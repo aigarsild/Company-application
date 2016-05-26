@@ -8,7 +8,7 @@
                 loggedIn: '[data-target=login]',
                 logInTekst: '[data-target=login-tekst]',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v1/authenticate'
+            url: 'http://aigarsild.ee/blog/public/api/v1/authenticate'
         },
         _init: function ()
         {

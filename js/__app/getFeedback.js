@@ -32,7 +32,7 @@
 
             $.ajax({
                        //url: 'http://kooliprojekt.dev:8000//api/v2/company/employee/'+employeeId,
-                       url: 'http://kooliprojekt.dev:8000/api/v2/employees/'+employeeId,
+                       url: 'http://aigarsild.ee/blog/public/api/v2/employees/'+employeeId,
                        data: {
                            format: 'json'
                        },

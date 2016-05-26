@@ -6,7 +6,7 @@
                 list: '[data-target=comp-list]',
                 button: '[data-button=button]',
             },
-            url: 'http://kooliprojekt.dev:8000//api/v2/company/employee/',
+            url: 'http://aigarsild.ee/blog/public/api/v2/company/employee/',
             type: 'GET',
         },
         _init: function ()
@@ -21,7 +21,7 @@
                 var parent_id = $(e.currentTarget).data('id');
 
                 $.ajax({
-                           url: 'http://kooliprojekt.dev:8000//api/v2/company/employee/'+parent_id,
+                           url: 'http://aigarsild.ee/blog/public/api/v2/company/employee/'+parent_id,
                            data: {
                                format: 'json'
                            },

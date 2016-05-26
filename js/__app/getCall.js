@@ -6,8 +6,8 @@
                 list: '[data-target=comp-list]',
                 button: '[data-button=button]',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v1/companies',
-            childUrl: 'http://kooliprojekt.dev:8000//api/v2/company/employee/',
+            url: 'http://aigarsild.ee/blog/public/api/v1/companies',
+            childUrl: 'http://aigarsild.ee/blog/public/api/v2/company/employee/',
             type: 'GET',
         },
         _init: function ()

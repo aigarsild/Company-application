@@ -7,8 +7,8 @@
                 email: '#InputEmail1',
                 password: '#InputPassword1',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v1/authenticate',
-            urlUsers: 'http://kooliprojekt.dev:8000/api/v1/users/all'
+            url: 'http://aigarsild.ee/blog/public/api/v1/authenticate',
+            urlUsers: 'http://aigarsild.ee/blog/public/api/v1/users/all'
         },
         _init: function ()
         {

@@ -6,7 +6,7 @@
                 parent: '[data-target=comp-list]',
                 button: '[data-target=delete]',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v1/companies/delete/',
+            url: 'http://aigarsild.ee/blog/public/api/v1/companies/delete/',
             type: 'DELETE',
         },
         _init: function ()
@@ -59,7 +59,7 @@
                 parent: '[data-target=comp-list]',
                 button: '[data-target=delete_employee]',
             },
-            url: 'http://kooliprojekt.dev:8000/api/v1/employees/delete/',
+            url: 'http://aigarsild.ee/blog/public/api/v1/employees/delete/',
         }
     });
 
