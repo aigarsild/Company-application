@@ -43,15 +43,15 @@
                            success: function (data)
                            {
                                if (data.length == 0) {
-                                   $('[data-id="'+parent_id+'"]').append('<p>There are no workers added</p>');
+                                   $('[data-id="'+parent_id+'"]').append('<p>There are no workers added</p><br>' +
+                                                                         '<a data-target="add_employee" >Add employee/</a>');
                                } else {
                                    $.each(data, function(index, element) {
                                        var id = element.id;
                                        var name = element.name;
                                        $('[data-id="'+parent_id+'"]').append('<h3>'+name+'</h3>' +
                                                                              '<a style="float: right" data-target="delete_employee" data-delete_id="'+id+'" href="#">Delete /</a>' +
-                                                                             '<a style="float: right" href="editcompany.php?companyId='+id+'">Edit /</a>' +
-                                                                             '<a style="float: right" data-target="add_employee" >Add new /</a>' +
+                                                                             '<a style="float: right" data-target="add_employee" >Add employee/</a>' +
                                                                              '<li><strong>Email: </strong>'+element.email+'</li>' +
                                                                              '<li><strong>Position: </strong>'+element.position+'</li>' +
                                                                              '<li><strong>Mob: </strong>'+element.contact_number+'</li>');

@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b81dd9-856c-483b-adb4-40d7db639262" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addnewemployee.php" afterPath="$PROJECT_DIR$/addnewemployee.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/addNewEmployee.js" afterPath="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/addNewFeedback.js" afterPath="$PROJECT_DIR$/js/__app/addNewFeedback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/createCall.js" afterPath="$PROJECT_DIR$/js/__app/createCall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/deleteCall.js" afterPath="$PROJECT_DIR$/js/__app/deleteCall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/editCall.js" afterPath="$PROJECT_DIR$/js/__app/editCall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getCall.js" afterPath="$PROJECT_DIR$/js/__app/getCall.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getChildren.js" afterPath="$PROJECT_DIR$/js/__app/getChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getFeedback.js" afterPath="$PROJECT_DIR$/js/__app/getFeedback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/logOut.js" afterPath="$PROJECT_DIR$/js/__app/logOut.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/login.js" afterPath="$PROJECT_DIR$/js/__app/login.js" />
     </list>
     <ignored path="services_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,22 +40,31 @@
       <file leaf-file-name="getChildren.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="51" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="192">
+              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
               <folding>
-                <marker date="1464294241000" expanded="true" signature="2331:2343" placeholder="..." />
-                <marker date="1464294241000" expanded="true" signature="2512:2524" placeholder="..." />
-                <marker date="1464294241000" expanded="true" signature="2668:2680" placeholder="..." />
+                <marker date="1464553986000" expanded="true" signature="2461:2473" placeholder="..." />
+                <marker date="1464553986000" expanded="true" signature="2642:2654" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addNewEmployee.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addNewEmployee.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="456">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addnewemployee.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addnewemployee.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,7 +73,7 @@
       <file leaf-file-name="getFeedback.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="689">
               <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
               <folding>
                 <marker date="1464294256000" expanded="true" signature="3264:3337" placeholder="..." />
@@ -117,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCall.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="getCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-600">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
@@ -131,21 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logOut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/__app/logOut.js">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="66" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createCall.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/__app/createCall.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="120">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -176,7 +168,6 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/templates/feedback.php" />
@@ -185,20 +176,21 @@
         <option value="$PROJECT_DIR$/editcompany.php" />
         <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/addnewcompany.php" />
-        <option value="$PROJECT_DIR$/addnewemployee.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/addnewfeedback.php" />
         <option value="$PROJECT_DIR$/js/userSession.js" />
-        <option value="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
         <option value="$PROJECT_DIR$/js/__app/addNewFeedback.js" />
         <option value="$PROJECT_DIR$/js/__app/createCall.js" />
         <option value="$PROJECT_DIR$/js/__app/deleteCall.js" />
         <option value="$PROJECT_DIR$/js/__app/editCall.js" />
         <option value="$PROJECT_DIR$/js/__app/getCall.js" />
-        <option value="$PROJECT_DIR$/js/__app/getChildren.js" />
         <option value="$PROJECT_DIR$/js/__app/getFeedback.js" />
         <option value="$PROJECT_DIR$/js/__app/logOut.js" />
         <option value="$PROJECT_DIR$/js/__app/login.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/__app/getChildren.js" />
+        <option value="$PROJECT_DIR$/addnewemployee.php" />
+        <option value="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
       </list>
     </option>
   </component>
@@ -258,6 +250,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services_app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services_app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,12 +430,12 @@
       <workItem from="1464294045963" duration="396000" />
       <workItem from="1464299635558" duration="4000" />
       <workItem from="1464307301139" duration="862000" />
-      <workItem from="1464553289318" duration="7000" />
+      <workItem from="1464553289318" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81177000" />
+    <option name="totallyTimeSpent" value="82389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="849" extended-state="6" />
@@ -453,6 +459,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5135135" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -647,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/init.js" />
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addnewemployee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="101" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addnewfeedback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -729,14 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="69" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,48 +759,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
-          <folding>
-            <marker date="1464294256000" expanded="true" signature="3264:3337" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="3682:3755" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4118:4132" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4309:4323" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4495:4509" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4683:4756" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="7195:7268" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="7568:7641" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/__app/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="51" />
-          <folding>
-            <marker date="1464294241000" expanded="true" signature="2331:2343" placeholder="..." />
-            <marker date="1464294241000" expanded="true" signature="2512:2524" placeholder="..." />
-            <marker date="1464294241000" expanded="true" signature="2668:2680" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,15 +783,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="-600">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
             <marker date="1464294230000" expanded="true" signature="2166:2178" placeholder="..." />
             <marker date="1464294230000" expanded="true" signature="2314:2326" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <marker date="1464294256000" expanded="true" signature="3264:3337" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="3682:3755" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="4118:4132" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="4309:4323" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="4495:4509" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="4683:4756" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="7195:7268" placeholder="..." />
+            <marker date="1464294256000" expanded="true" signature="7568:7641" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addnewemployee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+          <folding>
+            <marker date="1464553986000" expanded="true" signature="2461:2473" placeholder="..." />
+            <marker date="1464553986000" expanded="true" signature="2642:2654" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

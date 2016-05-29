@@ -4,7 +4,6 @@ $pageTitle = 'Welcome to App'; //Add page title
 include 'templates/header.php';
 ?>
     <div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-        <img src="img/logo.png" class="img-responsive">
         <h3><small>Welcome to</small> REST application</h3>
         <p data-target="name"></p>
         <p data-target="field"></p>

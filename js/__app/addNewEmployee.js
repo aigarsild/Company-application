@@ -6,12 +6,13 @@
                 button: '[data-target=add-employee]',
             },
             values: {
+                form: '[data-target=employee-form]',
                 name: '[data-target=name]',
                 email: '[data-target=email]',
                 contact_number: '[data-target=contact_number]',
                 position: '[data-target=position]',
             },
-            url: 'http://aigarsild.ee/laravelservices/public/api/v2/companies/'
+            url: 'http://aigarsild.ee/laravelservices/publicx/api/v2/companies/'
         },
         state: {
             isContentOpened: false,
@@ -28,7 +29,12 @@
 
             $('[data-target=add-employee]').on('click',function ()
             {
-                this.addCall();
+                var $form = this.options.className.form;
+                if (!$form.checkValidity) {
+                    console.log('tere');
+                    this.addCall();
+                }
+
 
             }.bind(this));
 
