@@ -6,13 +6,12 @@
                 button: '[data-target=add-employee]',
             },
             values: {
-                form: '[data-target=employee-form]',
                 name: '[data-target=name]',
                 email: '[data-target=email]',
                 contact_number: '[data-target=contact_number]',
                 position: '[data-target=position]',
             },
-            url: 'http://aigarsild.ee/laravelservices/publicx/api/v2/companies/'
+            url: 'http://aigarsild.ee/laravelservices/public/api/v2/companies/'
         },
         state: {
             isContentOpened: false,
@@ -29,10 +28,36 @@
 
             $('[data-target=add-employee]').on('click',function ()
             {
-                var $form = this.options.className.form;
-                if (!$form.checkValidity) {
-                    console.log('tere');
-                    this.addCall();
+                if ($(this.options.values.name).val() == '') {
+
+                    alert('Name cant be empty');
+                    $(this.options.values.name).css('border', 'solid 1px red');
+
+                } else {
+
+                    $(this.options.values.name).css('border', 'solid 1px #dfd7ca');
+                    var email = $(this.options.values.email).val();
+
+                    if (email.indexOf('@') >= 0) {
+
+                        $(this.options.values.email).css('border', 'solid 1px #dfd7ca');
+                        var phone = $(this.options.values.contact_number).val();
+
+                        if ($.isNumeric(phone)) {
+
+                            $(this.options.values.contact_number).css('border', 'solid 1px #dfd7ca');
+                            this.addCall();
+
+                        } else {
+
+                            alert('Number should only contain numbers');
+                            $(this.options.values.contact_number).css('border', 'solid 1px red');
+                        }
+
+                    } else {
+                        alert('Email is not valid');
+                        $(this.options.values.email).css('border', 'solid 1px red');
+                    }
                 }
 
 
@@ -92,7 +117,7 @@
             var field = $(this.options.values.position).val();
 
             $.ajax({
-                       url: 'http://kooliprojekt.dev:8000/api/v1/employees/add',
+                       url: 'http://aigarsild.ee/laravelservices/public/api/v1/employees/add',
                        data: 'company_id='+companyId+'&name='+name+'&email='+email+'&contact_number='+contact_number+'&position='+field,
                        type: 'POST',
                        beforeSend : function(xhr) {
@@ -105,9 +130,7 @@
                        },
                        error: function (error)
                        {
-                           alert('There has been an error');
-                           $(location).attr('href', 'login.php');
-                           localStorage.clear();
+                           alert(error);
 
                        },
                        dataType: 'json',

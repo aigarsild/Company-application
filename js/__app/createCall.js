@@ -17,7 +17,13 @@
         {
             $(this.options.className.button).on('click', function ()
             {
-                this.createCall();
+                if ($(this.options.values.name).val() == '') {
+                    alert('Name cant be empty');
+                    $(this.options.values.name).css('border', 'solid 1px red');
+                } else {
+                    this.createCall();
+                }
+
             }.bind(this));
 
         },

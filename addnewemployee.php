@@ -7,7 +7,6 @@ include 'templates/header.php';
 <h3>Add a new employee to:</h3>
 
 <h3 data-target="parent_name"></h3>
-<form data-target="employee-form">
 <div class="input-group col-xs-12">
     <label for="name">Name *</label>
     <input data-target="name" type="text" class="form-control" id="name" required>
@@ -29,7 +28,7 @@ include 'templates/header.php';
 </div>
 
 <button data-target="add-employee" class="btn btn-default col-xs-12" style="margin: 20px 0;">Add</button>
-</form>
+
 <!-- Add footer -->
 <?php
 $templateJs = '__app/createCall.js'; //Add template specific js
