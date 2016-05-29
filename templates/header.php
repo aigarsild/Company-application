@@ -40,7 +40,7 @@
 </head>
 <body>
 <div id="loader" style="display: none">
-    <img class="col-md-12 col-md-offset-3" src="../img/loader.png">
+    <img class="col-md-12 col-md-offset-3" src="https://d30y9cdsu7xlg0.cloudfront.net/png/35633-200.png">
     <h2>Loading...</h2>
 </div>
 <nav class="navbar navbar-default">
