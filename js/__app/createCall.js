@@ -10,7 +10,7 @@
                 contact_number: '[data-target=contact_number]',
                 field: '[data-target=field]',
             },
-            url: 'http://aigarsild.ee/blog/public/api/v1/companies',
+            url: 'http://aigarsild.ee/laravelservices/public/api/v1/companies',
             type: 'POST',
         },
         _init: function ()

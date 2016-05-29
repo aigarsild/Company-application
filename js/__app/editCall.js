@@ -8,9 +8,9 @@
                 field: '[data-target=field]',
                 button: '[data-target=edit]'
             },
-            url: 'http://aigarsild.ee/blog/public/api/v1/companies/',
+            url: 'http://aigarsild.ee/laravelservices/public/api/v1/companies/',
             type: 'GET',
-            editUrl: 'http://aigarsild.ee/blog/public/api/v1/companies/edit/',
+            editUrl: 'http://aigarsild.ee/laravelservices/public/api/v1/companies/edit/',
             editType: 'POST'
         },
         _init: function ()

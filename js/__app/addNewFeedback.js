@@ -21,7 +21,7 @@
                 creepy: '[data-target=creepy]:checked',
                 awesome: '[data-target=awesome]:checked',
             },
-            url: 'http://aigarsild.ee/blog/public/api/v2/feedbacks/store',
+            url: 'http://aigarsild.ee/laravelservices/public/api/v2/feedbacks/store',
             type: 'POST'
         },
         _init: function ()

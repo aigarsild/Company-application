@@ -9,7 +9,7 @@
                 butt: '[data-target=show]',
                 logout: '[data-target=logout]'
             },
-            url: 'http://kooliprojekt.dev:8000/api/v2/companies'
+            url: 'http://aigarsild.ee/laravelservices/public/v2/companies'
         },
         state: {
             isContentOpened: false,
@@ -38,7 +38,7 @@
             password = $(this.options.className.password).val();
 
             $.ajax({
-                       url: 'http://kooliprojekt.dev:8000/api/v1/authenticate',
+                       url: 'http://aigarsild.ee/laravelservices/public/api/v1/authenticate',
                        data: 'email='+email+'&password='+password,
                        type: 'POST',
                        processData: false,
@@ -64,7 +64,7 @@
         getCall: function ()
         {
             $.ajax({
-                       url: 'http://kooliprojekt.dev:8000/api/v1/companies',
+                       url: 'http://aigarsild.ee/laravelservices/public/api/v1/companies',
                        data: {
                            format: 'json'
                        },

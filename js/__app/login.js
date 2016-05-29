@@ -7,8 +7,8 @@
                 email: '#InputEmail1',
                 password: '#InputPassword1',
             },
-            url: 'http://aigarsild.ee/blog/public/api/v1/authenticate',
-            urlUsers: 'http://aigarsild.ee/blog/public/api/v1/users/all'
+            url: 'http://aigarsild.ee/laravelservices/public/api/v1/authenticate',
+            urlUsers: 'http://aigarsild.ee/laravelservices/public/api/v1/users/all'
         },
         _init: function ()
         {
@@ -27,8 +27,16 @@
                        data: 'email='+email+'&password='+password,
                        type: 'POST',
                        processData: false,
+                       beforeSend: function ()
+                       {
+                           $('#loader').show();
+                       },
                        error: function() {
                            $('#info').html('<p>An error has occurred</p>');
+                       },
+                       complete: function ()
+                       {
+                           $('#loader').hide();
                        },
                        dataType: 'json',
                        success: function(data) {
