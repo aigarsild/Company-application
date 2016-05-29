@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b81dd9-856c-483b-adb4-40d7db639262" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addnewemployee.php" afterPath="$PROJECT_DIR$/addnewemployee.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/addNewEmployee.js" afterPath="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/createCall.js" afterPath="$PROJECT_DIR$/js/__app/createCall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/deleteCall.js" afterPath="$PROJECT_DIR$/js/__app/deleteCall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getChildren.js" afterPath="$PROJECT_DIR$/js/__app/getChildren.js" />
     </list>
     <ignored path="services_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getChildren.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getChildren.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+            <state relative-caret-position="480">
+              <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
               <folding>
-                <marker date="1464553986000" expanded="true" signature="2461:2473" placeholder="..." />
-                <marker date="1464553986000" expanded="true" signature="2642:2654" placeholder="..." />
+                <marker date="1464560816000" expanded="true" signature="2461:2473" placeholder="..." />
+                <marker date="1464560816000" expanded="true" signature="2642:2654" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteCall.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deleteCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/deleteCall.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -103,7 +99,7 @@
       <file leaf-file-name="getCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-600">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
                 <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
@@ -187,11 +183,11 @@
         <option value="$PROJECT_DIR$/js/__app/logOut.js" />
         <option value="$PROJECT_DIR$/js/__app/login.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/__app/getChildren.js" />
         <option value="$PROJECT_DIR$/addnewemployee.php" />
         <option value="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
         <option value="$PROJECT_DIR$/js/__app/createCall.js" />
         <option value="$PROJECT_DIR$/js/__app/deleteCall.js" />
+        <option value="$PROJECT_DIR$/js/__app/getChildren.js" />
       </list>
     </option>
   </component>
@@ -432,18 +428,18 @@
       <workItem from="1464299635558" duration="4000" />
       <workItem from="1464307301139" duration="862000" />
       <workItem from="1464553289318" duration="5240000" />
-      <workItem from="1464560516818" duration="9000" />
+      <workItem from="1464560516818" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86419000" />
+    <option name="totallyTimeSpent" value="86562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="849" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -777,18 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
-            <marker date="1464294230000" expanded="true" signature="2166:2178" placeholder="..." />
-            <marker date="1464294230000" expanded="true" signature="2314:2326" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -810,17 +794,6 @@
             <marker date="1464294256000" expanded="true" signature="4683:4756" placeholder="..." />
             <marker date="1464294256000" expanded="true" signature="7195:7268" placeholder="..." />
             <marker date="1464294256000" expanded="true" signature="7568:7641" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-          <folding>
-            <marker date="1464553986000" expanded="true" signature="2461:2473" placeholder="..." />
-            <marker date="1464553986000" expanded="true" signature="2642:2654" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -854,6 +827,29 @@
         <state relative-caret-position="96">
           <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
+            <marker date="1464294230000" expanded="true" signature="2166:2178" placeholder="..." />
+            <marker date="1464294230000" expanded="true" signature="2314:2326" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
+          <folding>
+            <marker date="1464560816000" expanded="true" signature="2461:2473" placeholder="..." />
+            <marker date="1464560816000" expanded="true" signature="2642:2654" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

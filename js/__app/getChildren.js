@@ -55,8 +55,8 @@
                                                                              '<li><strong>Email: </strong>'+element.email+'</li>' +
                                                                              '<li><strong>Position: </strong>'+element.position+'</li>' +
                                                                              '<li><strong>Mob: </strong>'+element.contact_number+'</li>');
-                                       $('[data-id="'+parent_id+'"]').append('<a href="/addnewfeedback.php?employee='+id+'&employeeName='+name+'">Add feedback </a>' +
-                                                                             '<a href="/feedback.php?employee='+id+'">/ See feedback</a>');
+                                       $('[data-id="'+parent_id+'"]').append('<a href="addnewfeedback.php?employee='+id+'&employeeName='+name+'">Add feedback </a>' +
+                                                                             '<a href="feedback.php?employee='+id+'">/ See feedback</a>');
 
                                    }.bind(this));
                                }
