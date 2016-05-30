@@ -88,9 +88,15 @@
                        complete: function(){
                            $('#loader').hide();
                        },
-                       error: function (error)
+                       error: function (error, xhr)
                        {
-                           $(location).attr('href', 'dashboard.php');
+                           if (error == 'Unauthorized') {
+                               $(location).attr('href', 'login.php');
+                               localStorage.clear();
+                               alert('Session expired');
+                           } else {
+                               alert(xhr.responseText);
+                           }
 
                        },
                        dataType: 'json',

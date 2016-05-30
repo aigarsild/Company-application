@@ -45,12 +45,14 @@
                            var token = localStorage.getItem('Authorization');
                            xhr.setRequestHeader('Authorization', token);
                        },
-                       error: function (data)
+                       error: function (error, xhr)
                        {
-                           if (data.error == 'token_not_provided') {
+                           if (error == 'Unauthorized') {
                                $(location).attr('href', 'login.php');
                                localStorage.clear();
                                alert('Session expired');
+                           } else {
+                               alert(xhr.responseText);
                            }
 
                        },

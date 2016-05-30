@@ -71,7 +71,10 @@
                     <a href="addnewcompany.php">Add new company</a>
                 </li>
                 <li>
-                    <a href="login.php">Login</a>
+                    <a data-target="login" href="login.php">Login</a>
+                </li>
+                <li>
+                    <a data-target="logout" class="hidden" href="#">Log out</a>
                 </li>
             </ul>
             <p data-target="userName" class="navbar-text navbar-right hidden">Signed in as <a href="#" data-target="userNameInsert" class="navbar-link"></a></p>

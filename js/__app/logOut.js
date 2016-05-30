@@ -1,6 +1,6 @@
     (function ($, window, undefined)
 {
-    $.widget('vaimo.instantMessageRibbon', {
+    $.widget('logOut.Call', {
         options: {
             className: {
                 button: '[data-target=log-in-button]',
@@ -100,5 +100,5 @@
 
 jQuery(document).ready(function ($)
                        {
-                           $.vaimo.instantMessageRibbon();
+                           $.logOut.Call();
                        });

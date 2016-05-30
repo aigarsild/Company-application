@@ -31,10 +31,16 @@
                                var token = localStorage.getItem('Authorization');
                                xhr.setRequestHeader('Authorization', token);
                            },
-                           error: function (xhr, status, error)
+                           error: function (error, xhr)
                            {
-                               $(location).attr('href', 'login.php');
-                               localStorage.clear();
+                               if (error == 'Unauthorized') {
+                                   $(location).attr('href', 'login.php');
+                                   localStorage.clear();
+                                   alert('Session expired');
+                               } else {
+                                   alert(xhr.responseText);
+                               }
+
                            },
                            dataType: 'json',
                            complete: function(){

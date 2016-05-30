@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="21b81dd9-856c-483b-adb4-40d7db639262" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/addNewEmployee.js" afterPath="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/addNewFeedback.js" afterPath="$PROJECT_DIR$/js/__app/addNewFeedback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/createCall.js" afterPath="$PROJECT_DIR$/js/__app/createCall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/deleteCall.js" afterPath="$PROJECT_DIR$/js/__app/deleteCall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/editCall.js" afterPath="$PROJECT_DIR$/js/__app/editCall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getCall.js" afterPath="$PROJECT_DIR$/js/__app/getCall.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getChildren.js" afterPath="$PROJECT_DIR$/js/__app/getChildren.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/getFeedback.js" afterPath="$PROJECT_DIR$/js/__app/getFeedback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/logOut.js" afterPath="$PROJECT_DIR$/js/__app/logOut.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/__app/login.js" afterPath="$PROJECT_DIR$/js/__app/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/userSession.js" afterPath="$PROJECT_DIR$/js/userSession.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
     </list>
     <ignored path="services_app.iws" />
@@ -25,15 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getChildren.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/__app/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
-              <folding>
-                <marker date="1464560816000" expanded="true" signature="2461:2473" placeholder="..." />
-                <marker date="1464560816000" expanded="true" signature="2642:2654" placeholder="..." />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,19 +49,41 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
+            <state relative-caret-position="500">
+              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addnewemployee.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addnewemployee.php">
+      <file leaf-file-name="getChildren.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="432">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <marker date="1464596718000" expanded="true" signature="2718:2730" placeholder="..." />
+                <marker date="1464596718000" expanded="true" signature="2899:2911" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getFeedback.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="49" column="56" selection-start-line="47" selection-start-column="31" selection-end-line="49" selection-end-column="56" />
+              <folding>
+                <marker date="1464596724000" expanded="true" signature="3265:3338" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="3683:3756" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="4119:4133" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="4310:4324" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="4496:4510" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="4684:4757" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="7196:7269" placeholder="..." />
+                <marker date="1464596724000" expanded="true" signature="7569:7642" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,28 +91,8 @@
       <file leaf-file-name="editCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addNewFeedback.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/__app/addNewFeedback.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addnewfeedback.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addnewfeedback.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="21" column="106" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+            <state relative-caret-position="432">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -91,8 +101,8 @@
       <file leaf-file-name="deleteCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/deleteCall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+            <state relative-caret-position="432">
+              <caret line="40" column="33" selection-start-line="30" selection-start-column="31" selection-end-line="40" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -101,32 +111,42 @@
       <file leaf-file-name="getCall.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="336">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
-                <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
-                <marker date="1464294230000" expanded="true" signature="2166:2178" placeholder="..." />
-                <marker date="1464294230000" expanded="true" signature="2314:2326" placeholder="..." />
+                <marker date="1464596711000" expanded="true" signature="2260:2272" placeholder="..." />
+                <marker date="1464596711000" expanded="true" signature="2424:2436" placeholder="..." />
+                <marker date="1464596711000" expanded="true" signature="2572:2584" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createCall.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/__app/createCall.js">
+      <file leaf-file-name="logOut.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/__app/logOut.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="587">
+              <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addNewEmployee.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
+      <file leaf-file-name="userSession.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/userSession.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="419">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -165,21 +185,21 @@
         <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/addnewcompany.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
-        <option value="$PROJECT_DIR$/js/userSession.js" />
-        <option value="$PROJECT_DIR$/js/__app/editCall.js" />
-        <option value="$PROJECT_DIR$/js/__app/getCall.js" />
-        <option value="$PROJECT_DIR$/js/__app/getFeedback.js" />
-        <option value="$PROJECT_DIR$/js/__app/logOut.js" />
-        <option value="$PROJECT_DIR$/js/__app/login.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/addnewemployee.php" />
+        <option value="$PROJECT_DIR$/addnewfeedback.php" />
         <option value="$PROJECT_DIR$/js/__app/addNewEmployee.js" />
+        <option value="$PROJECT_DIR$/js/__app/addNewFeedback.js" />
         <option value="$PROJECT_DIR$/js/__app/createCall.js" />
         <option value="$PROJECT_DIR$/js/__app/deleteCall.js" />
+        <option value="$PROJECT_DIR$/js/__app/editCall.js" />
+        <option value="$PROJECT_DIR$/js/__app/getCall.js" />
         <option value="$PROJECT_DIR$/js/__app/getChildren.js" />
+        <option value="$PROJECT_DIR$/js/__app/getFeedback.js" />
+        <option value="$PROJECT_DIR$/js/__app/login.js" />
+        <option value="$PROJECT_DIR$/js/__app/logOut.js" />
         <option value="$PROJECT_DIR$/templates/header.php" />
-        <option value="$PROJECT_DIR$/addnewfeedback.php" />
-        <option value="$PROJECT_DIR$/js/__app/addNewFeedback.js" />
+        <option value="$PROJECT_DIR$/js/userSession.js" />
       </list>
     </option>
   </component>
@@ -223,6 +243,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,7 +310,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,21 +440,23 @@
       <workItem from="1464299635558" duration="4000" />
       <workItem from="1464307301139" duration="862000" />
       <workItem from="1464553289318" duration="5240000" />
-      <workItem from="1464560516818" duration="1128000" />
+      <workItem from="1464560516818" duration="1527000" />
+      <workItem from="1464596475043" duration="1239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87538000" />
+    <option name="totallyTimeSpent" value="89176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="849" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4864865" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -445,7 +467,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -663,13 +684,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/init.js" />
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="79" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editcompany.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -712,120 +726,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/userSession.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/logOut.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="66" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
-          <folding>
-            <marker date="1464294256000" expanded="true" signature="3264:3337" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="3682:3755" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4118:4132" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4309:4323" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4495:4509" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="4683:4756" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="7195:7268" placeholder="..." />
-            <marker date="1464294256000" expanded="true" signature="7568:7641" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/createCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/deleteCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <marker date="1464294230000" expanded="true" signature="2002:2014" placeholder="..." />
-            <marker date="1464294230000" expanded="true" signature="2166:2178" placeholder="..." />
-            <marker date="1464294230000" expanded="true" signature="2314:2326" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" column="87" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
-          <folding>
-            <marker date="1464560816000" expanded="true" signature="2461:2473" placeholder="..." />
-            <marker date="1464560816000" expanded="true" signature="2642:2654" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addnewemployee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="576">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
         </state>
@@ -833,16 +743,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addnewfeedback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="504">
           <caret line="21" column="106" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/addNewEmployee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="86" column="32" selection-start-line="80" selection-start-column="31" selection-end-line="86" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/__app/addNewFeedback.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="648">
+          <caret line="100" column="25" selection-start-line="90" selection-start-column="23" selection-end-line="100" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/createCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/deleteCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" column="33" selection-start-line="30" selection-start-column="31" selection-end-line="40" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/editCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getCall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <marker date="1464596711000" expanded="true" signature="2260:2272" placeholder="..." />
+            <marker date="1464596711000" expanded="true" signature="2424:2436" placeholder="..." />
+            <marker date="1464596711000" expanded="true" signature="2572:2584" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getChildren.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <marker date="1464596718000" expanded="true" signature="2718:2730" placeholder="..." />
+            <marker date="1464596718000" expanded="true" signature="2899:2911" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/logOut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/__app/getFeedback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="49" column="56" selection-start-line="47" selection-start-column="31" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <marker date="1464596724000" expanded="true" signature="3265:3338" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="3683:3756" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="4119:4133" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="4310:4324" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="4496:4510" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="4684:4757" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="7196:7269" placeholder="..." />
+            <marker date="1464596724000" expanded="true" signature="7569:7642" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/userSession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>

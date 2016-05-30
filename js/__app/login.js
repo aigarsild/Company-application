@@ -32,7 +32,7 @@
                            $('#loader').show();
                        },
                        error: function() {
-                           $('#info').html('<p>An error has occurred</p>');
+                           alert('Error in login');
                        },
                        complete: function ()
                        {
